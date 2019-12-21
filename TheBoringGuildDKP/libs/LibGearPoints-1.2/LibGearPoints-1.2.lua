@@ -10,6 +10,7 @@ if not lib then return end
 function lib:GetValue(item)
 	if not item then return end
 	local _, itemLink = GetItemInfo(item)
+	if not itemLink then return end
 	local itemID = itemLink:match("item:(%d+)")
 	if not itemID then return end
 	itemID = tonumber(itemID)
