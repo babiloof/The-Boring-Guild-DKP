@@ -1,7 +1,7 @@
 ## Interface: 11303
 ## Title: |cFF0dea38<The Boring Guild>|r DKP
 ## Notes: Adds The Boring Guild DKP prices to item tooltips and default values for MizusRaidTracker (with EPGP values enabled)
-## Author: babiloof
+## Author: kenp @ Razorgore
 ## Version: 1.0
 
 libs\LibStub\LibStub.lua
